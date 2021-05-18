@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foto{
+    width: 100px;
+    height: auto;
+}
+.perfil{
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
+}
+  
+body{
+    font-family: 'Poppins', sans-serif;  
+    background-image: url(img/fondo.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center center;
+}
+.menu{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        width: 100%;
+       /*  background-color: #F4F1BB; */
+}
+.menu, li, a{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    padding: 3px 2px;
+    margin-left: 30px;
+   /*  text-decoration: none;
+     
+    padding: 3px 2px;
+    display: block;
+    margin-right: 80px; 
+    box-shadow: #ED6A5A;  */
+}
+.menu ul li a:hover {
+    background-color: #E6EBE0;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+.menu, li{
+    display: inline-block;
+    text-align: center;
+}
+.container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 60%;
+    height: auto;
+    padding: 5% 3%;
+    align-content: flex-start;
+    
+}
+.mi{
+/* align-self: flex-end; */
+padding: 10px, 10px;
+}
+.def{
+    background-color: #E6EBE0;    
+}
+.cv{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 60%;
+    height: auto;
+    padding: 5% 3%;
+    align-content: flex-start;
+}
+h2{
+    color: white;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto button a{
+    font-size: 50px;
+    color: #F4F1BB;
+    border: none;
+    padding: 15px 15px;
+}
+.verde{
+    background-color: #9BC1BC;
+      
+}
+.naranja{
+    background-color: #ED6A5A;
+}
+button:hover {
+    transform:scale(0.9);
+    transition: all 0.5s ease;
+}
+footer{
+    background-color: #F4F1BB;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
